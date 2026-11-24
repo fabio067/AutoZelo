@@ -1,0 +1,23 @@
+# Configuração local e segredos
+.env
+.env.*
+!.env.example
+
+# SvelteKit e npm
+node_modules/
+.svelte-kit/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+
+# .NET e IDEs
+[Bb]in/
+[Oo]bj/
+.vs/
+TestResults/
+*.user
+
+# Arquivos locais do sistema
+.DS_Store
+Thumbs.db
